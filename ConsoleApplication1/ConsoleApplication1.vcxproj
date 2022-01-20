@@ -140,6 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="c_Arrow.cpp" />
+    <ClCompile Include="c_Horse.cpp" />
+    <ClCompile Include="c_Spear.cpp" />
+    <ClCompile Include="c_Sword.cpp" />
+    <ClCompile Include="c_Weapon.cpp" />
+    <ClCompile Include="с_Quiver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_Arrow.h" />
+    <ClInclude Include="c_Horse.h" />
+    <ClInclude Include="c_Spear.h" />
+    <ClInclude Include="c_Sword.h" />
+    <ClInclude Include="c_Weapon.h" />
+    <ClInclude Include="с_Quiver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
