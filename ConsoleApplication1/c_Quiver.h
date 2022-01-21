@@ -17,5 +17,11 @@ public:
 	c_Quiver();
 
 	c_Arrow* takeArrow();
+
+	bool notEmpty() {
+		return this->countArrows > 0;
+	}
+
+	
 };
 

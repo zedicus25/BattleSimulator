@@ -1,7 +1,7 @@
 #include "c_Quiver.h"
 
 c_Quiver::c_Quiver() {
-	this->first = NULL;
+	this->first = nullptr;
 	this->countArrows = 1 + rand() % 15;
 	this->init();
 }
@@ -38,5 +38,5 @@ c_Arrow* c_Quiver::takeArrow() {
 		this->countArrows--;
 		return arr;
 	}
-	return NULL;
+	return nullptr;
 }
