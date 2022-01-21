@@ -142,19 +142,27 @@
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="c_Arrow.cpp" />
     <ClCompile Include="c_Bow.cpp" />
+    <ClCompile Include="c_BowMan.cpp" />
     <ClCompile Include="c_Horse.cpp" />
     <ClCompile Include="c_Quiver.cpp" />
+    <ClCompile Include="c_Rider.cpp" />
+    <ClCompile Include="c_Soldier.cpp" />
     <ClCompile Include="c_Spear.cpp" />
     <ClCompile Include="c_Sword.cpp" />
+    <ClCompile Include="c_SwordMan.cpp" />
     <ClCompile Include="c_Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c_Arrow.h" />
     <ClInclude Include="c_Bow.h" />
+    <ClInclude Include="c_BowMan.h" />
     <ClInclude Include="c_Horse.h" />
     <ClInclude Include="c_Quiver.h" />
+    <ClInclude Include="c_Rider.h" />
+    <ClInclude Include="c_Soldier.h" />
     <ClInclude Include="c_Spear.h" />
     <ClInclude Include="c_Sword.h" />
+    <ClInclude Include="c_SwordMan.h" />
     <ClInclude Include="c_Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
