@@ -33,7 +33,7 @@
     <ClCompile Include="c_Arrow.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="с_Quiver.cpp">
+    <ClCompile Include="c_Quiver.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,7 +53,7 @@
     <ClInclude Include="c_Arrow.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="с_Quiver.h">
+    <ClInclude Include="c_Quiver.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

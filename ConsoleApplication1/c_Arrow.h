@@ -1,6 +1,6 @@
 #pragma once
 #include "c_Weapon.h"
-#include <iostream>
+
 class c_Arrow : public c_Weapon
 {
 private:

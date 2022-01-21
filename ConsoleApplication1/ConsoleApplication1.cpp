@@ -1,8 +1,7 @@
 ﻿#include <iostream>
+#include "c_Quiver.h"
 int main()
 {
-    std::cout << "Hello World!\n";
-
 }
 
 
