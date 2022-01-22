@@ -57,6 +57,7 @@ c_Squad::c_Squad()
 {
 	this->countInSquad = 5 + rand() % 15;
 	this->first = nullptr;
+	this->name = "NONE";
 	this->init();
 }
 
@@ -64,6 +65,23 @@ c_Squad::c_Squad(int countInSquad)
 {
 	this->countInSquad = countInSquad;
 	this->first = nullptr;
+	this->name = "NONE";
+	this->init();
+}
+
+c_Squad::c_Squad(std::string name)
+{
+	this->countInSquad = 5 + rand() % 15;
+	this->first = nullptr;
+	this->name = name;
+	this->init();
+}
+
+c_Squad::c_Squad(int countInSquad, std::string name)
+{
+	this->countInSquad = countInSquad;;
+	this->first = nullptr;
+	this->name = name;
 	this->init();
 }
 

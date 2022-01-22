@@ -11,7 +11,7 @@ public:
 	c_Soldier();
 
 	void takeDamage(int damage);
-	virtual void attack(c_Soldier& target);
+	virtual int attack(c_Soldier& target);
 
 	inline bool isAlive() const {
 		return this->health > 0;

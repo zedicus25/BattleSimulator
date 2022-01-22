@@ -143,6 +143,7 @@
     <ClCompile Include="c_Arrow.cpp" />
     <ClCompile Include="c_Bow.cpp" />
     <ClCompile Include="c_BowMan.cpp" />
+    <ClCompile Include="c_Fight.cpp" />
     <ClCompile Include="c_Horse.cpp" />
     <ClCompile Include="c_Quiver.cpp" />
     <ClCompile Include="c_Rider.cpp" />
@@ -157,6 +158,7 @@
     <ClInclude Include="c_Arrow.h" />
     <ClInclude Include="c_Bow.h" />
     <ClInclude Include="c_BowMan.h" />
+    <ClInclude Include="c_Fight.h" />
     <ClInclude Include="c_Horse.h" />
     <ClInclude Include="c_Quiver.h" />
     <ClInclude Include="c_Rider.h" />

@@ -11,10 +11,6 @@ public:
 		this->coef = 2 + rand() % 5;
 		this->quiver = new c_Quiver();
 	}
-	explicit c_Bow(int damage, int numberOfUses, int coef) : c_Weapon(damage, numberOfUses) {
-		this->coef = coef;
-		this->quiver = new c_Quiver();
-	}
 
 	virtual int attack();
 

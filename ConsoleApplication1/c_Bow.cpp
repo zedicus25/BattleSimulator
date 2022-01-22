@@ -9,5 +9,5 @@ int c_Bow::attack()
         delete[] arr;
         return this->damage + this->coef + attack;
     }
-    return 0;
+    return 1;
 }

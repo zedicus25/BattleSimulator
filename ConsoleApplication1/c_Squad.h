@@ -5,12 +5,14 @@
 struct NodeSq {
 	c_Soldier* soldier;
 	NodeSq* next;
+	
 };
 class c_Squad
 {
 private:
 	NodeSq* first;
 	int countInSquad;
+	std::string name;
 
 	void add();
 	void init();
@@ -20,10 +22,18 @@ private:
 public:
 	c_Squad();
 	c_Squad(int countInSquad);
+	c_Squad(std::string name);
+	c_Squad(int countInSquad, std::string name);
+	
 	inline bool notEmpty() const {
 		return this->countInSquad > 0;
 	}
-
+	void setName(std::string name) {
+		this->name = name;
+	}
+	inline std::string getName() const {
+		return this->name;
+	}
 	c_Soldier* takeSoldier();
 };
 

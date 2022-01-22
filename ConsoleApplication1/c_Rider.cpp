@@ -1,6 +1,6 @@
 #include "c_Rider.h"
 
-void c_Rider::attack(c_Soldier& target, c_Horse& targetHorse)
+int c_Rider::attack(c_Soldier& target, c_Horse& targetHorse)
 {
 	if (this->horse->isAlive())
 	{
@@ -9,8 +9,10 @@ void c_Rider::attack(c_Soldier& target, c_Horse& targetHorse)
 			targetHorse.takeDamage(damage);
 		else
 			target.takeDamage(damage);
+		return damage;
 	}
 	else {
 		target.takeDamage(this->weapon->attack());
+		return this->weapon->attack();
 	}
 }

@@ -14,7 +14,7 @@ public:
 		this->name = "Rider";
 	}
 
-	virtual void attack(c_Soldier& target, c_Horse& targetHorse);
+	virtual int attack(c_Soldier& target, c_Horse& targetHorse);
 	
 };
 

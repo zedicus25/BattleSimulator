@@ -21,10 +21,11 @@ void c_Soldier::takeDamage(int damage)
 	
 }
 
-void c_Soldier::attack(c_Soldier& target)
+int c_Soldier::attack(c_Soldier& target)
 {
 	int damage = this->weapon->attack();
 	target.takeDamage(damage);
+	return damage;
 }
 
 
