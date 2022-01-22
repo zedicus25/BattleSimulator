@@ -21,14 +21,16 @@ void c_Fight::fight()
 			while (sq1->isAlive() || sq2->isAlive()) {
 				if (sq1->isAlive()) {
 					std::cout << sq1->getName() << " from " << this->squadOne->getName() << " deals " <<
-						sq1->attack(*sq2) << " to " << sq2->getName() << " from " << this->squadTwo->getName() << "\n";
+						sq1->attack(*sq2) << " to " << sq2->getName() << " from " << this->squadTwo->getName() <<
+						"    " << sq1->getName() << " has " <<sq1->getHealth()<<" HP " << sq2->getName() << " has " << sq2->getHealth() <<" HP " << "\n";
 				}
 				else {
 					break;
 				}
 				if (sq2->isAlive()) {
 					std::cout << sq2->getName() << " from " << this->squadTwo->getName() << " deals " <<
-						sq2->attack(*sq1) << " to " << sq1->getName() << " from " << this->squadOne->getName() << "\n";
+						sq2->attack(*sq1) << " to " << sq1->getName() << " from " << this->squadOne->getName() << 
+						"    " << sq1->getName() << " has " << sq1->getHealth() << " HP " << sq1->getName() << " has " << sq2->getHealth() << " HP " << "\n";
 				}
 				else {
 					break;

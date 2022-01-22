@@ -21,6 +21,10 @@ public:
 		return this->name;
 	}
 
+	inline int getHealth() const {
+		return this->health;
+	}
+
 	
 };
 
