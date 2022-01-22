@@ -7,6 +7,7 @@ public:
 	c_BowMan() : c_Soldier()
 	{
 		this->weapon = new c_Bow();
+		this->name = "BowMan";
 	}
 };
 

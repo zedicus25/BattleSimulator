@@ -17,5 +17,8 @@ public:
 	inline int getSpeed() const {
 		return this->speed;
 	}
+	void takeDamage(int damage) {
+		this->health -= damage;
+	}
 };
 

@@ -5,6 +5,7 @@ c_Soldier::c_Soldier()
 	this->health = 100 + rand() % 150;
 	this->armor = 25 + rand() % 75;
 	this->weapon = new c_Weapon();
+	this->name = "NONE";
 }
 
 void c_Soldier::takeDamage(int damage)

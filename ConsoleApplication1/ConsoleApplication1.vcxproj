@@ -148,6 +148,7 @@
     <ClCompile Include="c_Rider.cpp" />
     <ClCompile Include="c_Soldier.cpp" />
     <ClCompile Include="c_Spear.cpp" />
+    <ClCompile Include="c_Squad.cpp" />
     <ClCompile Include="c_Sword.cpp" />
     <ClCompile Include="c_SwordMan.cpp" />
     <ClCompile Include="c_Weapon.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="c_Rider.h" />
     <ClInclude Include="c_Soldier.h" />
     <ClInclude Include="c_Spear.h" />
+    <ClInclude Include="c_Squad.h" />
     <ClInclude Include="c_Sword.h" />
     <ClInclude Include="c_SwordMan.h" />
     <ClInclude Include="c_Weapon.h" />

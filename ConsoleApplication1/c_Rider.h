@@ -11,9 +11,10 @@ public:
 	{
 		this->weapon = new c_Spear();
 		this->horse = new c_Horse();
+		this->name = "Rider";
 	}
 
-	virtual void attack(c_Soldier& target);
+	virtual void attack(c_Soldier& target, c_Horse& targetHorse);
 	
 };
 
