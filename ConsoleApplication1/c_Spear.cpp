@@ -6,5 +6,5 @@ int c_Spear::attack()
 		this->numbersOfUses--;
 		return this->damage * this->shaft;
 	}
-	return 1;
+	return 5 + rand() % 5+3;
 }

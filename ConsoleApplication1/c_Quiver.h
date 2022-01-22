@@ -22,6 +22,9 @@ public:
 		return this->countArrows > 0;
 	}
 
-	
+	~c_Quiver()
+	{
+		delete first;
+	}
 };
 

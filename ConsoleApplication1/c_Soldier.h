@@ -20,5 +20,7 @@ public:
 	inline std::string getName() const {
 		return this->name;
 	}
+
+	
 };
 

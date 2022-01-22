@@ -12,6 +12,7 @@ int main()
 	c_Fight* fight = new c_Fight(name1, name2);
 	fight->fight();
 	
+	delete fight;
 }
 
 

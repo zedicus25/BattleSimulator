@@ -18,6 +18,9 @@ public:
 		return this->quiver;
 	}
 
-	
+	~c_Bow()
+	{
+		delete quiver;
+	}
 };
 

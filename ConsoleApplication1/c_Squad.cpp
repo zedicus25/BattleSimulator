@@ -104,6 +104,6 @@ c_Soldier* c_Squad::takeSoldier()
 		this->countInSquad--;
 		return tmp;
 	}
-
+	delete tmp;
 	return nullptr;
 }

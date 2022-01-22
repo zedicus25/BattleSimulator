@@ -2,15 +2,10 @@
 
 c_Weapon::c_Weapon()
 {
-	this->damage = 5 + rand() % 15;
-	this->numbersOfUses = 10 + rand() % 25;
+	this->damage = 10 + rand() % 10+20;
+	this->numbersOfUses = 10 + rand() % 10+10;
 }
 
-c_Weapon::c_Weapon(int damage, int numbersOfUse)
-{
-	this->numbersOfUses = numbersOfUse;
-	this->damage = damage;
-}
 
 int c_Weapon::attack()
 {
@@ -18,5 +13,5 @@ int c_Weapon::attack()
 		this->numbersOfUses--;
 		return this->damage;
 	}
-	return 1;
+	return 5+rand()%5+5;
 }

@@ -11,5 +11,10 @@ public:
 
 	void fight();
 	
+	~c_Fight()
+	{
+		delete squadOne;
+		delete squadTwo;
+	}
 };
 

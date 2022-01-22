@@ -8,7 +8,6 @@ protected:
 public:
 	c_Weapon();
 
-	c_Weapon(int damage, int numbersOfUses);
 
 	inline int getDamage() const {
 		return this->damage;

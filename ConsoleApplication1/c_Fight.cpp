@@ -46,6 +46,8 @@ void c_Fight::fight()
 		else {
 			break;
 		}
+		delete sq1;
+		delete sq2;
 	}
 	if (this->squadOne->notEmpty() == false) {
 		std::cout << this->squadTwo->getName() << " WIN!!" << "\n";
@@ -53,4 +55,5 @@ void c_Fight::fight()
 	else {
 		std::cout << this->squadOne->getName() << " WIN!!" << "\n";
 	}
+	
 }

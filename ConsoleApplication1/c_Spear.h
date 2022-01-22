@@ -8,11 +8,7 @@ private:
 public:
 	c_Spear() : c_Weapon()
 	{
-		this->shaft = 1+rand()%2;
-	}
-
-	explicit c_Spear(int damage, int shaft, int numbersOfUses) : c_Weapon(damage, numbersOfUses) {
-		this->shaft = shaft;
+		this->shaft = 1+rand()%2+1;
 	}
 
 	virtual int attack();

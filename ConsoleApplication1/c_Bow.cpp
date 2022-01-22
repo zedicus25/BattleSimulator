@@ -6,8 +6,8 @@ int c_Bow::attack()
     if (arr != nullptr && this->quiver->notEmpty()) {
         this->numbersOfUses--;
         int attack = arr->attack();
-        delete[] arr;
+        delete arr;
         return this->damage + this->coef + attack;
     }
-    return 1;
+    return 5 + rand() % 5;
 }

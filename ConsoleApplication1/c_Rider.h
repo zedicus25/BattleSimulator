@@ -16,5 +16,10 @@ public:
 
 	virtual int attack(c_Soldier& target, c_Horse& targetHorse);
 	
+	~c_Rider()
+	{
+		delete horse;
+		delete weapon;
+	}
 };
 

@@ -7,11 +7,7 @@ private:
 	
 public:
 	c_Sword() : c_Weapon() {
-		this->coef = 1+rand()%3;
+		this->coef = 1+rand()%5+3;
 	}
-	explicit c_Sword(int damage, int coef, int numberOfUses) : c_Weapon(damage, numberOfUses) {
-		this->coef = coef;
-	}
-
 };
 

@@ -6,5 +6,5 @@ int c_Arrow::attack()
 		this->numbersOfUses--;
 		return this->damage * this->lenght;
 	}
-	return 1;
+	return 1 + rand() % 1+3;
 }

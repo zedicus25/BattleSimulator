@@ -35,5 +35,10 @@ public:
 		return this->name;
 	}
 	c_Soldier* takeSoldier();
+
+	~c_Squad()
+	{
+		delete first;
+	}
 };
 

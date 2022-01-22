@@ -9,5 +9,9 @@ public:
 		this->weapon = new c_Sword();
 		this->name = "SwordMan";
 	}
+	~c_SwordMan()
+	{
+		delete weapon;
+	}
 };
 
